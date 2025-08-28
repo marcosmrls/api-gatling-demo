@@ -17,12 +17,12 @@ Incluye un set de simulaciones basadas en una API demo con autenticación, CRUD 
 
 1. Clona el repositorio:
    ```cmd
-   git clone https://github.com/tu-usuario/api-gatling-demo.git
+   git clone https://github.com/marcosmrls/api-gatling-demo.git
    cd api-gatling-demo
 
 2. Copia el archivo de credenciales de admin:
    ```cmd
-   cp src/test/resources/data/admin.csv.example src/test/resources/data/admin.csv
+   copy src/test/resources/data/admin.csv.example src/test/resources/data/admin.csv
 
 3. Edita src/test/resources/data/admin.csv con credenciales válidas en tu entorno:
 
@@ -31,6 +31,8 @@ Incluye un set de simulaciones basadas en una API demo con autenticación, CRUD 
 ## ▶️ Ejecutar pruebas
    ```cmd
    mvnw.cmd gatling:test
+
+   ó Parametrizado
 
    mvnw.cmd gatling:test \
   -Dgatling.simulationClass=com.gatling.perf.simulations.PerformanceSimulation \
