@@ -1,2 +1,24 @@
 /target
 /.mvn/wrapper/*.jar
+
+# Maven build
+/target/
+/out/
+/bin/
+
+# IDE
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Gatling reports
+target/gatling/**
+
+# CSV con credenciales reales (mantén solo el ejemplo)
+src/test/resources/data/admin.csv
+src/test/resources/data/users.csv
