@@ -5,7 +5,6 @@ Incluye un set de simulaciones basadas en una API demo con autenticación, CRUD 
 
 ---
 
-
 ## 🚀 Requisitos
 
 - Java 21
@@ -29,7 +28,7 @@ Incluye un set de simulaciones basadas en una API demo con autenticación, CRUD 
 
 ---
 
-▶️ Ejecutar pruebas
+## ▶️ Ejecutar pruebas
    ```bash
    mvnw.cmd gatling:test
 
@@ -40,6 +39,6 @@ Incluye un set de simulaciones basadas en una API demo con autenticación, CRUD 
 
 ---
 
-📊 Resultados
+## 📊 Resultados
    ```bash
    target/gatling/<simulation-name>-<timestamp>/index.html
